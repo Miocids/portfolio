@@ -16,9 +16,9 @@ const projects: Project[] = [
   },
   {
     title: 'SoftERP',
-    description: 'Sistema ERP completo para gestión empresarial, inventarios, facturación y recursos humanos.',
-    url: 'https://softerp.itsolutionsengly.com/no-auth/sign-in',
-    technologies: ['Laravel', 'Angular', 'API REST', 'PostgreSQL']
+    description: 'Sistema ERP completo para gestión empresarial, inventarios, facturación, recursos humanos, tienda en línea.',
+    url: 'https://englyshop.itsolutionsengly.com/',
+    technologies: ['Laravel', 'Angular', 'API REST', 'Mysql']
   },
   {
     title: 'Telmo API',
@@ -29,15 +29,39 @@ const projects: Project[] = [
   {
     title: 'SysEdu',
     description: 'Plataforma educativa para gestión de instituciones, estudiantes, docentes y evaluaciones.',
-    url: 'https://sysedu.cremapr88venezuela.com/school/login',
-    technologies: ['Laravel', 'Filament', 'MySQL']
+    url: 'https://school.heisendev.online/school/login',
+    technologies: ['Laravel', 'Filament', 'MySQL','Docker']
   },
   {
     title: 'SysAdmin',
     description: 'Panel de administración central para gestión multi-tenant y configuración del sistema.',
     url: 'https://sysadmin.cremapr88venezuela.com/admin/login',
-    technologies: ['Laravel', 'Filament', 'Livewire', 'MySQL']
-  }
+    technologies: ['Laravel', 'Filament', 'Livewire', 'MySQL','Docker']
+  },
+  {
+    title: 'CCB Training',
+    description: 'Plataforma de capacitación para el sistema CCB USA.',
+    url: 'https://www.ccbtraining.com/',
+    technologies: ['React', 'NestJS', 'Supabase', 'Docker', 'Stripe']
+  },
+  {
+    title: 'GetLicensed Training',
+    description: 'Plataforma de capacitación para el sistema CCB USA.',
+    url: 'https://www.ccbtraining.com/',
+    technologies: ['React', 'NestJS', 'Supabase', 'Docker', 'Stripe']
+  },
+  {
+    title: 'Woocommerce Bosca Chile',
+    description: 'Tienda online para la venta de productos de la marca Bosca en Chile.',
+    url: 'https://bosca.heisendev.online/',
+    technologies: ['WordPress', 'PHP', 'jQuery', 'MySQL', 'Docker']
+  },
+  {
+    title: 'Woocommerce AquaChile',
+    description: 'Tienda online para la venta de productos de la marca AquaChike en Chile.',
+    url: 'https://aquachile.heisendev.online/',
+    technologies: ['WordPress', 'PHP', 'jQuery', 'MySQL', 'Docker']
+  },
 ]
 </script>
 
